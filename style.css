@@ -437,18 +437,41 @@ span {
 }
 
 /* footer section styles */
+.copyright {
+  white-space: nowrap;
+}
+.socials {
+  display: flex;
+  justify-content: ;
+}
 
+.socials a {
+  color: #333;
+  margin: 0 10px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #007bff;
+}
+.contact-info {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: rgb(242, 240, 240);
+  border-radius: 10px;
+  padding: 25px;
+}
 #footer {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 75px;
-  background-color: #ececec;
+  padding: 10px;
+  background-color: #7e2929;
 }
 
-#footer div {}
-
-#footer p,
 #footer a {
   color: rgb(109, 109, 109);
   text-decoration: none;
