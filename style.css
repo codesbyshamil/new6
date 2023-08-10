@@ -74,7 +74,7 @@ body {
   align-items: center;
   justify-content: space-between;
   background-color: #e3e6f3;
-  padding: 20px 80px;
+  padding: 25px 80px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 999;
   position: fixed;
@@ -95,7 +95,7 @@ body {
 
 .header-list-nav ul li {
   list-style-type: none;
-  padding: 0 25px;
+  padding: 0 20px;
   position: relative;
 }
 
